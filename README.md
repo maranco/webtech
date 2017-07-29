@@ -63,7 +63,7 @@
 		is that the browser will error check your HTML document.</p>
        
 <h4>3. Exercise</h4>
-		<p>Structure the text file <a href="../blob/master/prac/p03/Poets.txt">Poets.txt</a>
+		<p>Structure the text file <a href="../master/prac/p03/Poets.txt">Poets.txt</a>
 		using XHTML markup. The file contains three poems about the
 		First World War, by poets that participated in the conflict.
 		Structure the file using markup so the text is sectioned
@@ -74,14 +74,14 @@
 		browser's output.</p>
 
 <h4>4. Exercise</h4>
-		Format the text file <a href="../blob/master/prac/p03/Heracles.txt">Heracles.txt</a>
+		Format the text file <a href="../master/prac/p03/Heracles.txt">Heracles.txt</a>
 		using XHTML markup. The file contains the opening scene of Euripides'
 		play Heracles. To format the file make use of Emphasised, Italic
 		and Bold text, headings, a Descriptive List, &amp;c.</p>
 
 <h4>5. Exercise</h4>
 		<p>
-		Structure the text file <a href="../blob/master/prac/p03/TheLongShips.txt">TheLongShips.txt</a>
+		Structure the text file <a href="../master/prac/p03/TheLongShips.txt">TheLongShips.txt</a>
 		using XHTML markup. The file contains the opening paragraph of 
 		Frans Bengtsson’s book “The Long Ships”. Use the 
 		<code>id</code> attribute to correctly setup links to the footnotes 
@@ -194,7 +194,7 @@ Classification                           BMI(kg/m<sup>2</sup>)
        
 <h4>Exercise 4</h4>
        Convert the  the HTML file created from the text
-       file <a href="../blob/master/prac/p03/Poets.txt">Poets.txt</a> into a multicolumn
+       file <a href="../master/prac/p03/Poets.txt">Poets.txt</a> into a multicolumn
        document using the <kbd>float</kbd> property. What happens as
        the width of the Web browser’s window is changed? 
        

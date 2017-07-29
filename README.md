@@ -134,8 +134,9 @@ Classification                           BMI(kg/m<sup>2</sup>)
 <details>
 	<summary>Week 5: Advanced CSS</summary>
 
-       <h3>Exercise 1</h3>
-       <p>The Web site
+<h3>Exercise 1</h3>
+<p>
+       The Web site
        <a href="http://www.csszengarden.com">http://www.csszengarden.com</a>
        has been around for many years and though it is specifically
        aimed at graphic artists it does show what is possible with
@@ -153,7 +154,7 @@ Classification                           BMI(kg/m<sup>2</sup>)
        browser window.</p>
        
 
-       <h3>Exercise 2</h3>
+<h3>Exercise 2</h3>
        <p>Use Google Chrome's inbuilt <em>Developer Tools</em> interface
        (press <kbd>ctrl+shift+i</kbd>) to explore the CSS boxes that exist
        in a web page.  Load a variety of websites (start with something simple,
@@ -171,7 +172,7 @@ Classification                           BMI(kg/m<sup>2</sup>)
        CSS3 (and HTML5) correctly. The above CSS Zen Garden site is an example.</p>
        
 
-       <h3>Exercise 3</h3>
+<h3>Exercise 3</h3>
        <p>Study the
        <a href="../StudyBook/examples/CSS/beowulf.xhtml">Beowulf</a> example of
        using floating blocks to create a
@@ -191,13 +192,13 @@ Classification                           BMI(kg/m<sup>2</sup>)
        normal flow” What does that mean?</p>
        <p>When is a positioned element not removed from the normal flow?</p>
        
-       <h3>Exercise 4</h3>
+<h3>Exercise 4</h3>
        Convert the  the HTML file created from the text
        file <a href="Poets.txt">Poets.txt</a> into a multicolumn
        document using the <kbd>float</kbd> property. What happens as
        the width of the Web browser’s window is changed? 
        
-       <h3>Exercise 5</h3>
+<h3>Exercise 5</h3>
        <p>Study the  <a
        href="../StudyBook/examples/CSS/menus.xhtml">CSS menu</a>
        example which uses absolutely positioning elements.</p>
@@ -214,7 +215,7 @@ Classification                           BMI(kg/m<sup>2</sup>)
        <p>When is a positioned element not removed from the normal
        flow?</p>
        
-       <h3>Exercise 6</h3>
+<h3>Exercise 6</h3>
        <p>Consider the following HTML file of
        <a href="HenryV_IV_III.xhtml">Act IV, Scene III</a> of
        William Shakespeare’s play, King Henry V. The dialog is
@@ -225,7 +226,7 @@ Classification                           BMI(kg/m<sup>2</sup>)
        (500px, say) the <kbd>dt</kbd> element is on a line of its own
        (that is the default style of a descriptive list).</p> 
        
-       <h3>Exercise 7</h3>
+<h3>Exercise 7</h3>
        Why in the original HTML file  of
        <a href="HenryV_IV_III.xhtml">Act IV, Scene III</a> of
        William Shakespeare’s play, King Henry V the HTML line break

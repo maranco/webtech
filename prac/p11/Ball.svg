@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xl="http://www.w3.org/1999/xlink"
+   width="200"
+   height="200">
+  <defs>
+    <radialGradient id="grad">
+       <stop offset="0" stop-color="white"/>
+       <stop offset="1" stop-color="black"/>
+    </radialGradient>
+    <circle id="ball" cx="0" cy="0" r="100" fill="url(#grad)"/>
+  </defs>
+  <g transform="translate(100,100)">
+    <use xl:href="#ball" />
+  </g>
+</svg>

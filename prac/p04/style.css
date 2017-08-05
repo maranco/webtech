@@ -1,0 +1,46 @@
+body {
+	font-size: 14pt;
+	color: #444;
+	border: solid purple 1px;
+	margin: 0 20%;
+	background-color: #EEE;
+}
+
+img {
+	margin: 5px;
+}
+
+.one {
+	float:left;
+	border: solid 1px;
+}
+
+.two {
+	float:right;
+	border: dashed 1px;
+}
+
+.three {
+	float:left;
+	border: solid 1px #A4F;
+}
+
+.four {
+	float:right;
+	border: dashed 1px #FCA;
+}
+
+.five {
+	float:right;
+	border: dotted 1px;
+}
+
+ol {
+	clear: left;
+	border: solid 1px;
+}
+
+p {
+	border: solid 1px;
+}
+

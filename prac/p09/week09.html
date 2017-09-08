@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Technology 1: Practical 9</title>
+      <script type="text/javascript"
+              src="jquery-2.2.1.min.js">
+      // jQuery Library version 2.2.1
+      </script>
+      <script type="text/javascript">
+          //function initialise() {
+          //    $("ul li ul li").css("background","grey")
+          //}
+          $(document).ready(function () {
+
+              //$("ul li").on("click", function () {
+              //    $("ul li ul li").css("background", "grey");
+              //    console.log("mouser over");
+              //});
+              //$("ul li ul li").mouseover(function () {
+              //    $("ul li ul li").css("background", "grey");
+              //    console.log("mouser over");
+              //});
+              //$("ul li ul li").mouseout(function () {
+              //    $("ul li ul li").css("background", "");
+              //    console.log("mouser out");
+              //});
+              //$("li").on("click", function () {
+              //    console.log("<p> was clicked");
+              //});
+
+              //change colour on hover over region names
+          //    $("ul li").mouseenter(function () {
+          //        $("ul li ul li:hover").css("background", "grey");
+          //        console.log("mouser enter");
+          //    });
+          //    $("ul li").mouseleave(function () {
+          //        $("li").css("background", "");
+          //        console.log("mouser leave");
+          //    });
+              //});
+
+                //having trouble getting this to work for only country
+          //    $("ul").mouseenter(function () {
+          //        $("li:hover").css("background", "grey");
+          //        console.log("mouser enter");
+          //    });
+          //    $("ul").mouseleave(function () {
+          //        $("li").css("background", "");
+          //        console.log("mouser leave");
+          //    });
+
+              //selects all ul li elements
+              //$("ul li ul li").click(function () {
+              //    $("ul li ul li").css("color", "blue");
+              //});
+
+              //selects all ul li elements
+              $("dl").click(function () {
+                  //var select = $(this).text()
+                  $("ul li ul li:hover").css("color", "blue")
+              });
+
+              $("dd ul li ul li").css("cursor", "pointer");
+
+          });
+
+
+
+          //function mouseOver() {
+          //    $("ul li").css("background", "grey");
+          //}
+          //$("ul li").mouseover(mouseOver());
+      </script>
+  </head>
+  <body>
+   <section>
+     <h1>Practical Week 9</h1>
+     <p>Countries in Africa and Asia
+     </p>
+         <dl>
+         <dt><strong>Africa</strong></dt>
+	  <dd><ul>
+	     <li>Eastern Africa
+	     <ul>
+		<li>Burundi</li>
+		<li>Comoros</li>
+		<li>Djibouti</li>
+		<li>Eritrea</li>
+		<li>Ethiopia</li>
+		<li>Kenya</li>
+		<li>Madagascar</li>
+		<li>Malawi</li>
+		<li>Mauritius</li>
+		<li>Mayotte</li>
+		<li>Mozambique</li>
+		<li>Reunion</li>
+		<li>Rwanda</li>
+		<li>Seychelles</li>
+		<li>Somalia</li>
+		<li>Tanzania, United Republic of</li>
+		<li>Uganda</li>
+		<li>Zambia</li>
+		<li>Zimbabwe</li>
+             </ul>
+	     </li>
+	     <li>Middle Africa
+	     <ul>
+		<li>Angola</li>
+		<li>Cameroon</li>
+		<li>Central African Republic</li>
+		<li>Chad</li>
+		<li>Congo (Brazzaville)</li>
+		<li>Congo, Democratic Republic of the</li>
+		<li>Equatorial Guinea</li>
+		<li>Gabon</li>
+		<li>Sao Tome and Principe</li>
+	     </ul></li>
+	     <li>Northern Africa
+             <ul>
+		<li>Algeria</li>
+		<li>Egypt</li>
+		<li>Libyan Arab Jamahiriya</li>
+		<li>Morroco</li>
+		<li>South Sudan</li>
+		<li>Sudan</li>
+		<li>Tunisia</li>
+		<li>Western Sahara</li>
+             </ul>
+	     </li>
+	     <li>Southern Africa
+	     <ul>
+		<li>Botswana</li>
+		<li>Lesotho</li>
+		<li>Namibia</li>
+		<li>South Africa</li>
+		<li>Swaziland</li>
+             </ul>
+	     </li>
+	     <li>Western Africa
+	     <ul>
+	       <li>Benin</li>
+	       <li>Burkina Faso</li>
+	       <li>Cape Verde</li>
+	       <li>Cote d'Ivoire (Ivory Coast)</li>
+	       <li>Gambia</li>
+	       <li>Ghana</li>
+	       <li>Guinea</li>
+	       <li>Guinea-Bissau</li>
+	       <li>Liberia</li>
+	       <li>Mali</li>
+	       <li>Mauritania</li>
+	       <li>Niger</li>
+	       <li>Nigeria</li>
+	       <li>Saint Helena</li>
+	       <li>Senegal</li>
+	       <li>Sierra Leone</li>
+	       <li>Togo</li>
+	     </ul></li>
+	   </ul>
+	 </dd>
+	 <dt><strong>Asia</strong></dt>
+	  <dd><ul>
+	      <li>Afganistan</li>
+	      <li>Armenia</li>
+	      <li>Azerbaijan</li>
+	      <li>Bangladesh</li>
+	      <li>Bhutan</li>
+	      <li>Brunei Darussalam</li>
+	      <li>Cambodia</li>
+	      <li>China</li>
+	      <li>Georgia</li>
+	      <li>Hong Kong</li>
+	      <li>India</li>
+	      <li>Indonesia</li>
+	      <li>Japan</li>
+	      <li>Kazakhstan</li>
+	      <li>Korea, North</li>
+	      <li>Korea, South</li>
+	      <li>Kyrgyzstan</li>
+	      <li>Laos</li>
+	      <li>Macao</li>
+	      <li>Malaysia</li>
+	      <li>Maldives</li>
+	      <li>Mongolia</li>
+	      <li>Myanmar (ex-Burma)</li>
+	      <li>Nepal</li>
+	      <li>Pakistan</li>
+	      <li>Phillipines</li>
+	      <li>Singapore</li>
+	      <li>Sri Lanka (ex-Ceilan)</li>
+	      <li>Taiwan</li>
+	      <li>Tajikistan</li>
+	      <li>Thailand</li>
+	      <li>Timor Leste (West)</li>
+	      <li>Turkmenistan</li>
+	      <li>Uzbekistan</li>
+	      <li>Vietnam</li>
+	   </ul></dd>
+      </dl>
+   </section>
+  </body>
+</html>
+   
